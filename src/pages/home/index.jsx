@@ -1,4 +1,6 @@
-import React from 'react';
+
+import React, { useEffect, useState } from 'react';
+
 import './style.css';
 import NavBar from '../../components/Header';
 import logo from '../../assets/logoX.png'
@@ -11,11 +13,56 @@ import Listing from '../../components/Listing';
 import Footer from '../../components/Footer';
 
 
+export const fetchMRDTokenData = () => {
+  const options = { method: 'GET', headers: { accept: 'application/json' } };
+  return fetch('https://api.ociswap.com/tokens/mrd', options)
+    .then(response => response.json())
+    .catch(err => {
+      console.error(err);
+      throw err;
+    });
+};
+
+const formatCurrency = (value) => {
+  return new Intl.NumberFormat('en-US', {
+    style: 'currency',
+    currency: 'USD',
+    maximumFractionDigits: 2, // Limita o número a duas casas decimais
+    minimumFractionDigits: 2, // Garante que sempre tenha duas casas decimais
+  }).format(value);
+};
+
 
 function App() {
+
+  const [valueNow, setValueNow] = useState(0.0000);
+  const [capMek, setCapMek] = useState(0.0000);
+
+
+  useEffect(() => {
+    fetchMRDTokenData()
+      .then(data => {
+        const priceNow = parseFloat(data.price.usd['now']);
+        const marketCapNow = parseFloat(data.market_cap.circulating.usd['now']);
+
+        setValueNow(priceNow.toPrecision(4));
+        setCapMek(formatCurrency(marketCapNow)); // Formata o market cap
+      })
+      .catch(err => {
+        console.error('Erro ao buscar dados:', err);
+      });
+  }, []);
+
+
+
+
+
+
   return (
     <div className="App">
       <NavBar />
+
+
 
       <section className='content-info-tam org-contents'>
         <div >
@@ -27,7 +74,7 @@ function App() {
           </p>
         </div>
 
-        <img src={logo} alt="memerad" />
+        <img className='logo-p1' src={logo} alt="memerad" />
 
 
       </section>
@@ -42,11 +89,10 @@ function App() {
 
             <div>
               <p>
-                Price: 0.000045
+                Price: ${valueNow ? valueNow : 'Calculando...'}
               </p>
-
               <p>
-                Market Cap: $16,857.56
+                Market Cap: {capMek ? capMek : 'Calculando...'}
               </p>
 
 
@@ -66,10 +112,42 @@ function App() {
 
           <div className='distribution'>
             <p>Public Sale: 90,66% (453,3 million tokens).</p>
-            <p>Burn: 5,34% (26.7 million tokens).</p>
-            <p>Team: 2% (10 million tokens). </p>
-            <p>Incentive Reserve: 1% (5 million tokens). </p>
-            <p>Advisors: 1% (5 million tokens).  </p>
+            <a
+              href="https://dashboard.radixdlt.com/account/account_rdx16998xell0000000000000000000000000000000000000000000000/tokens"
+              target="_blank"
+              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+            >
+              <p>
+                Burn: 5,34% (26.7 million tokens).
+              </p>
+            </a>
+
+            <a
+              href="https://dashboard.radixdlt.com/account/account_rdx12xdmxkzcsg5amzt0vv7xv3d65el26q8nynyxakd8p2y0h89yp89uw3/tokens"
+              target="_blank"
+              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+            >
+              <p>Team: 2% (10 million tokens). </p>
+
+            </a>
+
+            <a
+              href="https://dashboard.radixdlt.com/account/account_rdx12ympygg94kjqyc50ze0s9s0jnp0yvszkvce4t7jgjxf2pd39pur9gm/tokens"
+              target="_blank"
+              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+            >
+              <p>Incentive Reserve: 1% (5 million tokens). </p>
+
+            </a>
+            <a
+              href="https://dashboard.radixdlt.com/account/account_rdx1287ha65655jsfnezmj0pzewydagew6ave86trcn64rvzyutfyrzjra/tokens"
+              target="_blank"
+              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+            >
+              <p>Advisors: 1% (5 million tokens).  </p>
+
+            </a>
+
           </div>
 
         </div>
