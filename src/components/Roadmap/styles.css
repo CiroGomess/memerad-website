@@ -67,7 +67,212 @@
     top: 1em;
 }
 
-.contet-star img{
+.contet-star img {
     position: relative !important;
     z-index: 99 !important;
+}
+
+
+.content-star img:nth-child(1) {
+    margin-top: -1em;
+}
+
+.content-star img:nth-child(2),
+.content-star img:nth-child(3) {
+    margin-top: 5em;
+}
+
+.content-star img:nth-child(4),
+.content-star img:nth-child(5),
+.content-star img:nth-child(6) {
+    margin-top: 4em;
+}
+
+.content-star img:nth-child(7) {
+    margin-top: 2em;
+}
+
+.content-star img:nth-child(8),
+.content-star img:nth-child(9) {
+    margin-top: 3em;
+}
+
+.content-star img:nth-child(10) {
+    margin-top: 4em;
+}
+
+.content-star img:nth-child(11) {
+    margin-top: 6.2em;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {}
+
+
+
+
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1280px) and (min-device-height: 720px) and (max-device-height: 720px) {
+
+    .content-info-tam {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content-star img:nth-child(1) {
+        margin-top: -1em;
+    }
+    
+    .content-star img:nth-child(2),
+    .content-star img:nth-child(3) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(4),
+    .content-star img:nth-child(5),
+    .content-star img:nth-child(6) {
+        margin-top: 4em;
+    }
+    
+    .content-star img:nth-child(7) {
+        margin-top: 2em;
+    }
+    
+    .content-star img:nth-child(8),
+    .content-star img:nth-child(9) {
+        margin-top: 3em;
+    }
+    
+    .content-star img:nth-child(10) {
+        margin-top: 4em;
+    }
+    
+    .content-star img:nth-child(11) {
+        margin-top: 8em;
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (min-device-height: 768px) and (max-device-height: 768px) {
+    .content-info-tam {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .content-star img:nth-child(1) {
+        margin-top: -1em;
+    }
+    
+    .content-star img:nth-child(2),
+    .content-star img:nth-child(3) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(4),
+    .content-star img:nth-child(5),
+    .content-star img:nth-child(6) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(7) {
+        margin-top: 2em;
+    }
+    
+    .content-star img:nth-child(8),
+    .content-star img:nth-child(9) {
+        margin-top: 4em;
+    }
+    
+    .content-star img:nth-child(10) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(11) {
+        margin-top: 4em;
+    }
+
+
+
+}
+
+
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1440px) and (min-device-height: 900px) and (max-device-height: 900px) {
+    .content-info-tam {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .content-star img:nth-child(1) {
+        margin-top: -1em;
+    }
+    
+    .content-star img:nth-child(2),
+    .content-star img:nth-child(3) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(4),
+    .content-star img:nth-child(5),
+    .content-star img:nth-child(6) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(7) {
+        margin-top: 2em;
+    }
+    
+    .content-star img:nth-child(8),
+    .content-star img:nth-child(9) {
+        margin-top: 4em;
+    }
+    
+    .content-star img:nth-child(10) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(11) {
+        margin-top: 5.5em;
+    }
+
+}
+
+
+
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1600px) and (min-device-height: 900px) and (max-device-height: 900px) {
+    .content-star img:nth-child(1) {
+        margin-top: -1em;
+    }
+    
+    .content-star img:nth-child(2),
+    .content-star img:nth-child(3) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(4),
+    .content-star img:nth-child(5),
+    .content-star img:nth-child(6) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(7) {
+        margin-top: 2em;
+    }
+    
+    .content-star img:nth-child(8),
+    .content-star img:nth-child(9) {
+        margin-top: 4em;
+    }
+    
+    .content-star img:nth-child(10) {
+        margin-top: 5em;
+    }
+    
+    .content-star img:nth-child(11) {
+        margin-top: 3em;
+    }
 }

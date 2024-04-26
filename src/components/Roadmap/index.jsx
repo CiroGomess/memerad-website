@@ -56,17 +56,17 @@ const Roadmap = () => {
             </div>
 
             <div className='content-star'>
-                <img src={starSmall} alt="Star" style={{ marginTop: '-1em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '5em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '5em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '4em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '4em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '4em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '2em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '3em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '3em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '4em' }} />
-                <img src={starSmall} alt="Star" style={{ marginTop: '6.2em' }} />
+                <img src={starSmall} alt="Star" />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star" />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star" />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star"  />
+                <img src={starSmall} alt="Star"  />
             </div>
 
 

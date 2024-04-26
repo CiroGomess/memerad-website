@@ -23,7 +23,7 @@ const Listing = () => {
                 <img src={caviar} alt="Star" />
                 <img src={oci} alt="Star" />
                 <img src={defi} alt="Star" />
-                <img src={ast} alt="Star" />
+                <img src={ast} alt="Star"  className='img-ast'/>
 
 
 
