@@ -1,0 +1,36 @@
+.org-content-footer {
+    background: #111111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em 6em;
+    flex-wrap: wrap; 
+    min-height: 100px; 
+   
+    font-size: 20pt;
+    font-weight: 900;
+}
+
+.org-content-footer-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.org-content-footer-items p{
+    color: #dadada;
+    margin-left: 2em;
+    margin-right: 2em;
+    cursor: pointer;
+}
+.org-content-footer-items p:hover{
+    color: #fff;
+    transition: color 0.5s;
+   
+}
+
+.org-content-footer-items img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    width: 7em;
+}

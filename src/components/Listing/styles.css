@@ -1,0 +1,18 @@
+.org-content {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4em 6em;
+    flex-wrap: wrap; 
+    min-height: 100px; 
+
+    margin-top: 10em;
+}
+
+.org-content img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: contain; 
+    cursor: pointer;
+}

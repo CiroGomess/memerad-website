@@ -1,0 +1,68 @@
+/* NavBar.css */
+.navbar {
+
+
+    align-items: center;
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 0.4fr 3fr ;
+
+
+
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    background-color: #010030;
+    padding: 15px 25px;
+    border-radius: 25px;
+    margin-right: 20px;
+
+
+}
+.logo img{
+   width: 4.5em;
+}
+.logo span{
+  font-size: 24pt;
+  font-weight: bold;
+  margin-left: 0.2em;
+  color: #E40476;
+  margin-bottom: 8px;
+  
+}
+
+.nav-items {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+
+ 
+   
+}
+
+.content-nav-options{
+    display: flex;
+    background-color: #010030;
+    padding: 25px 25px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 14pt;
+}
+
+

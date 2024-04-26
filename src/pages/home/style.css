@@ -1,0 +1,198 @@
+.org-contents {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 70vh;
+  justify-items: center;
+  margin-top: 2em;
+}
+
+.org-contents p {
+  color: #FFF;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.neonText {
+  color: white;
+  font-size: 50pt;
+  font-weight: bold;
+  width: 600px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: 1.8em;
+
+  text-shadow:
+    -6px -6px 0 #D70375,
+    0px -6px 0 #D70375,
+    6px -6px 0 #D70375,
+    -6px 4px 0 #D70375,
+    -6px 6px 0 #D70375,
+    6px 6px 0 #D70375,
+    /* Very thick border using text-shadow */
+    5px 5px 6px rgba(0, 0, 0, 0.5);
+  /* Text shadow for depth */
+
+}
+
+
+.neonText span {
+  color: #2FF3D8;
+
+}
+
+
+.tokens-distribution-content {
+  background: #FB016C;
+  border: 5px solid #2FF3D8;
+  border-radius: 3em;
+  padding: 4em;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.5);
+  color: #FFF;
+}
+
+
+.tokens-distribution-content .neonText {
+  color: white;
+  font-size: 50pt;
+  font-weight: bold;
+  width: 480px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  margin-top: 0em;
+
+  text-shadow:
+    -6px -6px 0 #D70375,
+    6px -6px 0 #D70375,
+    -6px 6px 0 #D70375,
+    6px 6px 0 #D70375,
+    /* Very thick border using text-shadow */
+    5px 5px 6px rgba(0, 0, 0, 0.623);
+  /* Text shadow for depth */
+
+}
+
+
+.tokens-distribution-content {
+  display: flex;
+  align-items: center;
+}
+
+.tokens-distribution-content p {
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+.tokens-distribution-content button {
+  font-size: 18pt;
+  font-weight: 700;
+}
+
+
+
+
+
+.line {
+  position: relative;
+  width: 2px;
+  height: 330px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.line:before,
+.line:after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.line:before {
+  top: -10px;
+}
+
+.line:after {
+  bottom: -10px;
+}
+
+
+
+
+.distribution p:hover {
+  color: #ececec;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+
+.roadmap {
+  margin-top: 3em;
+}
+
+.roadmap .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+  margin-top: 6em;
+}
+
+.roadmap .text img {
+  width: 5em;
+}
+
+.roadmap .text h1 {
+
+
+  color: #2FF3D8;
+  font-size: 65pt;
+  width: 600px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: center;
+
+
+  text-shadow:
+    -6px -6px 0 #D70375,
+    6px -6px 0 #D70375,
+    -6px 6px 0 #D70375,
+    6px 6px 0 #D70375,
+    /* Very thick border using text-shadow */
+    5px 5px 6px rgba(0, 0, 0, 0.5);
+  /* Text shadow for depth */
+}
+
+
+.content-x-telegram {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 5em;
+  margin-top: 10em;
+}
+
+.content-x-telegram .content-text,
+.content-xtl {
+  padding: 1em;
+  border-radius: 3em;
+  border: 4px solid #2FF3D8;
+  background-color: #FB016C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+}
+
+.content-x-telegram .content-text p {
+
+  color: #FFF;
+  font-size: 20pt;
+  font-weight: bold;
+
+}
