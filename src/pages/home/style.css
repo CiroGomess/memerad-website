@@ -227,7 +227,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .content-xtl img:hover {
@@ -656,20 +656,25 @@ body {
     animation: spinBorder 2s linear infinite;
   }
 
-  .XStar-2 {
-    position: absolute;
-    right: -10em;
-    margin-top: -25em;
-    z-index: -1;
-    width: 16em;
-  }
+
 
   .XStar-1 {
     position: absolute;
     left: -10em;
     width: 17em;
+    display: none;
   }
 
+
+  .XStar-2 {
+    position: absolute !important;
+    right: 1em !important;
+    margin-top: -25em !important;
+    z-index: -1 !important;
+    width: 6em !important;
+  }
+
+  
   .XStar-3 {
     position: absolute;
     left: -5em;
