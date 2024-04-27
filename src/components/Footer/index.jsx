@@ -9,6 +9,20 @@ import run from '../../assets/run-footer.png'
 
 
 const Footer = () => {
+
+
+
+    const handleNavLinkClick = (selector, event) => {
+        event.preventDefault();
+
+
+
+        const section = document.querySelector(selector);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
 
         <section className='org-content-footer'>
@@ -16,11 +30,14 @@ const Footer = () => {
 
             <div className='org-content-footer-items'>
 
-                <p>Home</p>
-                <p>How to buy</p>
-                <img src={run} alt="Star" className='logo-rdx'/>
-                <p>Contact</p>
-                <p>Roadmap</p>
+                <p  onClick={(e) => handleNavLinkClick('.text-img', e)}>Home</p>
+                <p  onClick={(e) => handleNavLinkClick('.tokens-distribution-content', e)}>Distribution</p>
+                <img src={run} alt="Star" className='logo-rdx' />
+                <a href="https://docs.memerad.info/" >
+                    <p>Contact</p>
+                </a>
+
+                <p onClick={(e) => handleNavLinkClick('.content-info-tam.roadmap', e)}>Roadmap</p>
 
 
 

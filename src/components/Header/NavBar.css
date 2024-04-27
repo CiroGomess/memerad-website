@@ -167,7 +167,7 @@
     .org-contents {
         display: grid;
         grid-template-columns: 1fr;
-        height: 115vh;
+        height: 85vh;
         justify-items: center;
         margin-top: 2em;
     }

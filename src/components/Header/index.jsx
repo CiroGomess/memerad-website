@@ -5,13 +5,13 @@ import Logo from '../../assets/logo.png';
 import starSmall from '../../assets/starSmall.png';
 
 const NavBar = () => {
-    const [isOpen, setIsOpen] = useState(false);  // Estado para controlar a visibilidade do menu
+    const [isOpen, setIsOpen] = useState(false);
 
     const handleNavLinkClick = (selector, event) => {
-        event.preventDefault();  // Prevenir o comportamento padrão do link
-        setIsOpen(false);  // Fechar o menu no mobile
+        event.preventDefault();
+        setIsOpen(false);
 
-        // Encontrar o elemento da seção correspondente
+
         const section = document.querySelector(selector);
         if (section) {
             section.scrollIntoView({ behavior: 'smooth' });
@@ -34,19 +34,19 @@ const NavBar = () => {
             <div className={`menu ${isOpen ? "open" : ""}`}>
                 <button className="close-btn" onClick={() => setIsOpen(false)}>×</button>
                 <div className="nav-items mobile-nav-items">
-                    <a href="#roadmap" style={{ color: 'white' }} onClick={(e) => handleNavLinkClick('.content-info-tam.roadmap', e)}>ROADMAP</a>
-                    <a href="/how-to-mrd" style={{ color: 'white' }}>HOW TO MRD</a>
-                    <a href="https://docs.memerad.info/" target='_blank' rel="noopener noreferrer" style={{ color: 'white' }} >DOCS</a>
-                    <a href="#community" style={{ color: 'white' }} onClick={(e) => handleNavLinkClick('.content-info-tam.content-x-telegram', e)}>COMMUNITY</a>
+                    <a href="#roadmap" onClick={(e) => handleNavLinkClick('.content-info-tam.roadmap', e)}>ROADMAP</a>
+                    <a href="/how-to-mrd" onClick={(e) => handleNavLinkClick('.tokens-distribution-content', e)}>DISTRIBUTION</a>
+                    <a href="https://docs.memerad.info/" target='_blank' rel="noopener noreferrer"  >DOCS</a>
+                    <a href="#community" onClick={(e) => handleNavLinkClick('.content-info-tam.content-x-telegram', e)}>COMMUNITY</a>
                 </div>
             </div>
 
             <div className="content-nav-options desktop-nav-options">
                 <div className="nav-items">
-                    <a href="#roadmap" style={{ color: 'white' }} onClick={(e) => handleNavLinkClick('.content-info-tam.roadmap', e)}>ROADMAP</a>
-                    <a href="/how-to-mrd" style={{ color: 'white' }}>HOW TO MRD</a>
-                    <a href="https://docs.memerad.info/" style={{ color: 'white' }}>DOCS</a>
-                    <a href="#community" style={{ color: 'white' }} onClick={(e) => handleNavLinkClick('.content-info-tam.content-x-telegram', e)}>COMMUNITY</a>
+                    <a href="#roadmap" onClick={(e) => handleNavLinkClick('.content-info-tam.roadmap', e)}>ROADMAP</a>
+                    <a href="/how-to-mrd" onClick={(e) => handleNavLinkClick('.tokens-distribution-content', e)}>DISTRIBUTION</a>
+                    <a href="https://docs.memerad.info/" target='_blank' rel="noopener noreferrer"  >DOCS</a>
+                    <a href="#community" onClick={(e) => handleNavLinkClick('.content-info-tam.content-x-telegram', e)}>COMMUNITY</a>
                 </div>
                 <div className="buy-button">
                     <img src={starSmall} alt="Logo" />
