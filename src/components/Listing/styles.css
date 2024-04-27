@@ -26,7 +26,8 @@
         object-fit: contain;
         cursor: pointer;
     }
-    .img-ast{
+
+    .img-ast {
         width: 4em !important;
     }
 }
@@ -40,7 +41,8 @@
         object-fit: contain;
         cursor: pointer;
     }
-    .img-ast{
+
+    .img-ast {
         width: 4em !important;
     }
 }
@@ -54,7 +56,8 @@
         object-fit: contain;
         cursor: pointer;
     }
-    .img-ast{
+
+    .img-ast {
         width: 4em !important;
     }
 }
@@ -70,6 +73,40 @@
         object-fit: contain;
         cursor: pointer;
     }
+
+    .img-ast {
+        width: 4em !important;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .org-content {
+        background: #fff;
+        display: flex;
+        /* Usando flex ao invés de grid */
+        flex-direction: row;
+        /* Assegura que os itens se alinham horizontalmente */
+        justify-content: center;
+        align-items: center;
+        padding: 3em;
+        gap: 1em;
+        min-height: 100px;
+        margin-top: 10em;
+        overflow-x: auto;
+        /* Permite rolagem horizontal se as imagens não couberem */
+    }
+
+    .org-content img {
+        width: 100%;
+        /* Torna todas as imagens com largura completa dentro do seu container */
+        max-width: 120px;
+        /* Limita a largura máxima de cada imagem */
+        height: auto;
+        /* Mantém a proporção das imagens */
+    }
+
     .img-ast{
         width: 4em !important;
     }

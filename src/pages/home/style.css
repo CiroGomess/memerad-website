@@ -189,6 +189,11 @@
 
 }
 
+.content-xtl img{
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
 .content-x-telegram .content-text p {
 
   color: #FFF;
@@ -203,7 +208,7 @@
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1280px) and (min-device-height: 720px) and (max-device-height: 720px) {
 
 
-  .logo-p1{
+  .logo-p1 {
     width: 23em;
   }
 
@@ -212,10 +217,11 @@
     font-size: 40pt;
 
     width: 600px;
- 
+
     margin-top: 1em;
-    
-}
+
+  }
+
   .tokens-distribution-content {
     background: #FB016C;
     border: 5px solid #2FF3D8;
@@ -349,9 +355,6 @@
 }
 
 
-
-
-
 @media only screen and (min-device-width: 1600px) and (max-device-width: 1600px) and (min-device-height: 900px) and (max-device-height: 900px) {
   .tokens-distribution-content {
     background: #FB016C;
@@ -392,4 +395,120 @@
     height: 270px;
 
   }
+}
+
+
+@media (max-width: 768px) {
+  .neonText {
+    color: white;
+    text-align: center;
+    font-size: 26pt;
+    font-weight: bold;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin-top: 0em;
+    text-shadow: -6px -6px 0 #D70375, 0px -6px 0 #D70375, 6px -6px 0 #D70375, -6px 4px 0 #D70375, -6px 6px 0 #D70375, 6px 6px 0 #D70375, 5px 5px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .org-contents p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
+  }
+
+  .logo-p1 {
+    width: 17em;
+  }
+
+  .content-info-tam {
+    width: 91%;
+    margin: 0 auto;
+  }
+
+
+
+  .tokens-distribution-content {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tokens-distribution-content .neonText {
+    color: white;
+    font-size: 26pt;
+    font-weight: bold;
+    width: 480px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin-top: 0em;
+    text-shadow: -6px -6px 0 #D70375, 6px -6px 0 #D70375, -6px 6px 0 #D70375, 6px 6px 0 #D70375, 5px 5px 6px rgba(0, 0, 0, 0.623);
+  }
+
+  .line {
+
+    display: none;
+  }
+
+  .tokens-distribution-content .neonText {
+    color: white;
+    font-size: 26pt;
+    font-weight: bold;
+    width: 260px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin-top: 0em;
+    text-shadow: -6px -6px 0 #D70375, 6px -6px 0 #D70375, -6px 6px 0 #D70375, 6px 6px 0 #D70375, 5px 5px 6px rgba(0, 0, 0, 0.623);
+  }
+
+  .tokens-distribution-content p {
+    font-size: 13pt;
+    font-weight: 700;
+  }
+
+  .buy-button-2 {
+    background-color: #40CFC9;
+    padding: 5px 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 14em;
+    margin-bottom: 1em;
+  }
+
+  .roadmap .text h1 {
+    color: #2FF3D8;
+    font-size: 29pt;
+    width: 600px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: -6px -6px 0 #D70375, 6px -6px 0 #D70375, -6px 6px 0 #D70375, 6px 6px 0 #D70375, 5px 5px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  .roadmap .text img {
+    width: 2em;
+
+  }
+
+  .roadmap .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5em;
+    margin-top: 6em;
+    width: 88%;
+    margin: 0 auto;
+  }
+
+  .content-star {
+    display: none;
+  }
+
+  
+
 }

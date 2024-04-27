@@ -18,7 +18,7 @@ const Footer = () => {
 
                 <p>Home</p>
                 <p>How to buy</p>
-                <img src={run} alt="Star" />
+                <img src={run} alt="Star" className='logo-rdx'/>
                 <p>Contact</p>
                 <p>Roadmap</p>
 
