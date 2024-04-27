@@ -106,8 +106,13 @@
 }
 
 
-/* Estilos para dispositivos móveis */
-@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 767px) {
+    .top-content {
+        padding-top: 0em;
+    }
+
+}
 
 
 
@@ -326,6 +331,7 @@
         font-weight: bold;
         text-align: center;
     }
+
     .roadmap-item.complete::after {
         content: 'complete';
         color: white;
@@ -337,5 +343,5 @@
         top: -10px;
         right: -10px;
     }
-  
+
 }

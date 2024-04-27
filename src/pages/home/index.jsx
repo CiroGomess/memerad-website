@@ -16,6 +16,8 @@ import Text1 from '../../assets/MrdWorld.png'
 import XStar from '../../assets/XStar.png'
 import Nenu from '../../assets/nenu.png (1).png'
 
+import ButtonTop from '../../components/ButtonTop';
+
 
 
 export const fetchMRDTokenData = () => {
@@ -230,7 +232,7 @@ function App() {
       <Listing />
       <Footer />
 
-
+      <ButtonTop />
 
 
 

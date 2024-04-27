@@ -250,9 +250,11 @@ body {
   font-size: 28pt;
   font-weight: bold;
   margin-top: 3em;
-  position: relative; /* Garantir que o posicionamento da sombra fique relativo ao botão */
-  animation: spinBorder 2s linear infinite; /* Aplica a animação */
-} 
+  position: relative;
+  /* Garantir que o posicionamento da sombra fique relativo ao botão */
+  animation: spinBorder 2s linear infinite;
+  /* Aplica a animação */
+}
 
 
 .button-buy-mrd:hover {
@@ -636,6 +638,48 @@ body {
     margin-top: 1.5em;
     width: 22em;
   }
+
+  .button-buy-mrd {
+    width: 81%;
+    margin: 0 auto;
+    background-color: #40CFC9;
+    padding: 1em 1em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-top: 3em;
+    position: relative;
+    animation: spinBorder 2s linear infinite;
+  }
+
+  .XStar-2 {
+    position: absolute;
+    right: -10em;
+    margin-top: -25em;
+    z-index: -1;
+    width: 16em;
+  }
+
+  .XStar-1 {
+    position: absolute;
+    left: -10em;
+    width: 17em;
+  }
+
+  .XStar-3 {
+    position: absolute;
+    left: -5em;
+    margin-top: 6.7em;
+    z-index: -1;
+    width: 14em;
+  }
+
+
+
 
 
 }
