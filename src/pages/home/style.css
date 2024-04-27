@@ -189,7 +189,7 @@
 
 }
 
-.content-xtl img{
+.content-xtl img {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
@@ -199,6 +199,65 @@
   color: #FFF;
   font-size: 20pt;
   font-weight: bold;
+
+}
+
+
+.text-img {
+  margin-top: 6.5em;
+}
+
+
+.XStar-1 {
+  position: absolute;
+  left: -10em;
+}
+
+.XStar-2 {
+  position: absolute;
+  right: -14em;
+  margin-top: -25em;
+}
+
+.XStar-3 {
+  position: absolute;
+  left: -15em;
+  margin-top: -24.3em;
+  z-index: -1;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.content-xtl img:hover {
+  transform: scale(1.2);
+  /* Sem 'px', apenas um número */
+  transition: transform 0.5s ease;
+  /* Adiciona uma transição suave */
+}
+
+.button-buy-mrd {
+  width: 25%;
+  margin: 0 auto;
+  background-color: #40CFC9;
+  padding: 1em 1em;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 28pt;
+  font-weight: bold;
+  margin-top: 3em;
+  position: relative; /* Garantir que o posicionamento da sombra fique relativo ao botão */
+  animation: spinBorder 2s linear infinite; /* Aplica a animação */
+} 
+
+
+.button-buy-mrd:hover {
+  transform: scale(1.04);
+  transition: all 0.5s ease-in-out;
 
 }
 
@@ -264,6 +323,27 @@
 
   }
 
+
+  .XStar-1 {
+    position: absolute;
+    left: -10em;
+    width: 25%;
+  }
+
+  .XStar-2 {
+    position: absolute;
+    right: -14em;
+    margin-top: -25em;
+    width: 25%;
+  }
+
+  .XStar-3 {
+    position: absolute;
+    left: -10em;
+    margin-top: -10.3em;
+    z-index: -1;
+    width: 25%;
+  }
 }
 
 
@@ -309,6 +389,27 @@
     height: 270px;
 
   }
+
+  .XStar-1 {
+    position: absolute;
+    left: -10em;
+    width: 25%;
+  }
+
+  .XStar-2 {
+    position: absolute;
+    right: -14em;
+    margin-top: -25em;
+    width: 25%;
+  }
+
+  .XStar-3 {
+    position: absolute;
+    left: -10em;
+    margin-top: -10.3em;
+    z-index: -1;
+    width: 25%;
+  }
 }
 
 
@@ -351,6 +452,27 @@
 
     height: 270px;
 
+  }
+
+  .XStar-1 {
+    position: absolute;
+    left: -10em;
+    width: 25%;
+  }
+
+  .XStar-2 {
+    position: absolute;
+    right: -14em;
+    margin-top: -25em;
+    width: 25%;
+  }
+
+  .XStar-3 {
+    position: absolute;
+    left: -10em;
+    margin-top: -10.3em;
+    z-index: -1;
+    width: 25%;
   }
 }
 
@@ -509,6 +631,11 @@
     display: none;
   }
 
-  
+
+  .text-img {
+    margin-top: 1.5em;
+    width: 22em;
+  }
+
 
 }

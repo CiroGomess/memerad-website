@@ -182,6 +182,13 @@
         display: none;
     }
 
+    .nav-items {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: -4em;
+    }
 }
 
 

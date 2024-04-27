@@ -12,6 +12,11 @@ import Roadmap from '../../components/Roadmap';
 import Listing from '../../components/Listing';
 import Footer from '../../components/Footer';
 
+import Text1 from '../../assets/MrdWorld.png'
+import XStar from '../../assets/XStar.png'
+import Nenu from '../../assets/nenu.png (1).png'
+
+
 
 export const fetchMRDTokenData = () => {
   const options = { method: 'GET', headers: { accept: 'application/json' } };
@@ -66,7 +71,7 @@ function App() {
 
       <section className='content-info-tam org-contents'>
         <div >
-          <h1 className='neonText'><span>$MRD </span> the world</h1>
+          <img className='text-img' src={Text1} alt="" />
           <p>
             $MRD is more than just a token - it's the paradise of memecoins.
             Built on the Radix network (XRD),
@@ -100,7 +105,12 @@ function App() {
               <div className="buy-button-2">
 
                 <img src={starSmall} alt="Logo" />
-                <button onClick={() => window.location.href = 'https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh'}>BUY MRD</button>
+                <button>
+                  <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer">
+                    BUY MRD
+                  </a>
+
+                </button>
               </div>
             </div>
           </div>
@@ -152,6 +162,9 @@ function App() {
 
         </div>
 
+
+        <img className='XStar-1' src={XStar} alt="" />
+
       </section>
 
 
@@ -164,6 +177,8 @@ function App() {
 
 
         <Roadmap />
+
+        <img className='XStar-2' src={XStar} alt="" />
 
 
 
@@ -182,9 +197,33 @@ function App() {
         </div>
 
         <div className='content-xtl'>
-          <img src={x} alt="Logo" />
-          <img src={telegram} alt="Logo" />
+          <a
+            href="https://twitter.com/Memeradix"
+            target="_blank"
+            rel="noopener noreferrer" >
+            <img src={x} alt="Logo" />
+          </a>
+
+          <a
+            href="https://t.me/MEMERADIX"
+            target="_blank"
+            rel="noopener noreferrer" >
+            <img src={telegram} alt="Logo" />
+          </a>
+
         </div>
+
+      </section>
+
+      <img className='XStar-3' src={Nenu} alt="" />
+
+
+
+      <section className='button-buy-mrd'>
+
+        <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target='_blank' rel="noopener noreferrer" >
+          BUY MEMERAD
+        </a>
 
       </section>
 
