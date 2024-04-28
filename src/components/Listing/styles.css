@@ -31,7 +31,8 @@
         cursor: pointer;
     }
 
-    .img-ast {
+   
+    .img-ast, .img-doge{
         width: 4em !important;
     }
 }
@@ -46,7 +47,8 @@
         cursor: pointer;
     }
 
-    .img-ast {
+  
+    .img-ast, .img-doge{
         width: 4em !important;
     }
 }
@@ -61,7 +63,7 @@
         cursor: pointer;
     }
 
-    .img-ast {
+    .img-ast, .img-doge{
         width: 4em !important;
     }
 }
@@ -78,7 +80,7 @@
         cursor: pointer;
     }
 
-    .img-ast {
+    .img-ast, .img-doge{
         width: 4em !important;
     }
 }

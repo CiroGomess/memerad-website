@@ -30,8 +30,8 @@ const Footer = () => {
 
             <div className='org-content-footer-items'>
 
-                <p  onClick={(e) => handleNavLinkClick('.text-img', e)}>Home</p>
-                <p  onClick={(e) => handleNavLinkClick('.tokens-distribution-content', e)}>Distribution</p>
+                <p onClick={(e) => handleNavLinkClick('.text-img', e)}>Home</p>
+                <p onClick={(e) => handleNavLinkClick('.tokens-distribution-content', e)}>Distribution</p>
                 <img src={run} alt="Star" className='logo-rdx' />
                 <a href="https://docs.memerad.info/" >
                     <p>Contact</p>
@@ -41,6 +41,17 @@ const Footer = () => {
 
 
 
+            </div>
+
+
+
+            <div className='dev'>
+                <hr />
+                Copyright 2024 - Designed & Developed by <a href="https://t.me/DEV_Ciro" target="_blank"
+                    rel="noopener noreferrer" >
+                    Dev_Ciro
+                </a>
+                <hr />
             </div>
 
         </section>

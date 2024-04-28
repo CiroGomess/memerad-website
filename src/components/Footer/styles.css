@@ -37,6 +37,16 @@
 
 
 
+.dev{
+     color: #fff;
+     margin-top: 5em;
+     font-weight: 200;
+
+     font-size: 14pt;
+}
+
+
+
 @media only screen and (min-device-width: 1280px) and (max-device-width: 1280px) and (min-device-height: 720px) and (max-device-height: 720px) {
     .org-content-footer {
         background: #111111;
@@ -86,17 +96,7 @@
 
 
 @media only screen and (min-device-width: 1600px) and (max-device-width: 1600px) and (min-device-height: 900px) and (max-device-height: 900px) {
-    .org-content-footer {
-        background: #111111;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 2em 2em;
-        flex-wrap: wrap;
-        min-height: 100px;
-        font-size: 17pt;
-        font-weight: 900;
-    }
+  
    
 }
 

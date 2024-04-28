@@ -23,7 +23,7 @@ const Listing = () => {
                 <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer" >
                     <img src={xrd} alt="Star" />
                 </a>
-                <a href="https://www.caviarnine.com/orderbook/component_rdx1cp90vk7vx79q6lpftqxudqg5gmjgluf8pwsqhard5zmdhvcluszjyp" target="_blank" rel="noopener noreferrer" >
+                <a href="https://www.caviarnine.com/earn/shape-liquidity/pool/component_rdx1cr967tufdmtnayllyujths75zhxne8pdq7jgucp0j50lhpydr58wtc" target="_blank" rel="noopener noreferrer" >
                     <img src={caviar} alt="Star" />
                 </a>
 
@@ -32,7 +32,7 @@ const Listing = () => {
                 </a>
 
 
-                <a href="https://radix.defiplaza.net/swap" target="_blank" rel="noopener noreferrer" >
+                <a href="https://radix.defiplaza.net/liquidity/add" target="_blank" rel="noopener noreferrer" >
                     <img src={defi} alt="Star" />
                 </a>
 

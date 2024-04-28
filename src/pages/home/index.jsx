@@ -123,11 +123,20 @@ function App() {
 
 
           <div className='distribution'>
-            <p>Public Sale: 90,66% (453,3 million tokens).</p>
+            <a
+              href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh/info/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p>
+                Public Sale: 91,66% (458,3 million tokens).
+              </p>
+            </a>
+
             <a
               href="https://dashboard.radixdlt.com/account/account_rdx16998xell0000000000000000000000000000000000000000000000/tokens"
               target="_blank"
-              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+              rel="noopener noreferrer"
             >
               <p>
                 Burn: 5,34% (26.7 million tokens).
@@ -137,7 +146,7 @@ function App() {
             <a
               href="https://dashboard.radixdlt.com/account/account_rdx12xdmxkzcsg5amzt0vv7xv3d65el26q8nynyxakd8p2y0h89yp89uw3/tokens"
               target="_blank"
-              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+              rel="noopener noreferrer"
             >
               <p>Team: 2% (10 million tokens). </p>
 
@@ -146,15 +155,15 @@ function App() {
             <a
               href="https://dashboard.radixdlt.com/account/account_rdx12ympygg94kjqyc50ze0s9s0jnp0yvszkvce4t7jgjxf2pd39pur9gm/tokens"
               target="_blank"
-              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+              rel="noopener noreferrer"
             >
-              <p>Incentive Reserve: 1% (5 million tokens). </p>
+              <p>Incentive Reserve: 1% (2 million tokens). </p>
 
             </a>
             <a
               href="https://dashboard.radixdlt.com/account/account_rdx1287ha65655jsfnezmj0pzewydagew6ave86trcn64rvzyutfyrzjra/tokens"
               target="_blank"
-              rel="noopener noreferrer" // isso é importante por questões de segurança e performance
+              rel="noopener noreferrer"
             >
               <p>Advisors: 1% (5 million tokens).  </p>
 
