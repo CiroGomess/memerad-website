@@ -6,6 +6,7 @@ import caviar from '../../assets/caviar.png'
 import oci from '../../assets/ociswap.png'
 import defi from '../../assets/defiplaza.png'
 import ast from '../../assets/astrolescent.png'
+import dogeCube from '../../assets/dogecube.png'
 
 
 
@@ -19,11 +20,30 @@ const Listing = () => {
 
             <div className='org-content'>
 
-                <img src={xrd} alt="Star" />
-                <img src={caviar} alt="Star" />
-                <img src={oci} alt="Star" />
-                <img src={defi} alt="Star" />
-                <img src={ast} alt="Star"  className='img-ast'/>
+                <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer" >
+                    <img src={xrd} alt="Star" />
+                </a>
+                <a href="https://www.caviarnine.com/orderbook/component_rdx1cp90vk7vx79q6lpftqxudqg5gmjgluf8pwsqhard5zmdhvcluszjyp" target="_blank" rel="noopener noreferrer" >
+                    <img src={caviar} alt="Star" />
+                </a>
+
+                <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer" >
+                    <img src={oci} alt="Star" />
+                </a>
+
+
+                <a href="https://radix.defiplaza.net/swap" target="_blank" rel="noopener noreferrer" >
+                    <img src={defi} alt="Star" />
+                </a>
+
+                <a href="https://astrolescent.com/?index" target="_blank" rel="noopener noreferrer" >
+                    <img src={ast} alt="Star" className='img-ast' />
+                </a>
+
+                <a href="https://swap.dogecube.io/swap" target="_blank" rel="noopener noreferrer" >
+                    <img src={dogeCube} alt="Star" className='img-doge' />
+                </a>
+
 
 
 

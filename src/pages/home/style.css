@@ -662,16 +662,13 @@ body {
     position: absolute;
     left: -10em;
     width: 17em;
-    display: none;
+    
   }
 
 
   .XStar-2 {
-    position: absolute !important;
-    right: 1em !important;
-    margin-top: -25em !important;
-    z-index: -1 !important;
-    width: 6em !important;
+   
+    display: none !important;
   }
 
   
