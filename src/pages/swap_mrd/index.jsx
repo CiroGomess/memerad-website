@@ -27,6 +27,7 @@ const Swap = () => {
 
 
             <iframe
+            
                 className='content_swap'
                 title="Swap"
                 src="https://astrolescent.com/widget?to=resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh&amount=100"

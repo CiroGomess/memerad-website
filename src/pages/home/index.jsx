@@ -96,10 +96,10 @@ function App() {
 
             <div>
               <p>
-                Price: ${valueNow ? valueNow : 'Calculando...'}
+                Price: ${valueNow ? valueNow : 'Loading...'}
               </p>
               <p>
-                Market Cap: {capMek ? capMek : 'Calculando...'}
+                Market Cap: {capMek ? capMek : 'Loading...'}
               </p>
 
 
