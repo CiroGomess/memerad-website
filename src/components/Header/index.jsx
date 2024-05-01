@@ -51,7 +51,7 @@ const NavBar = () => {
                 <div className="buy-button">
                     <img src={starSmall} alt="Logo" />
                     <button>
-                        <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer">
+                        <a href="https://astrolescent.com/?to=resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer">
                             BUY MRD
                         </a>
                     </button>

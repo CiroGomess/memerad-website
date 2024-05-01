@@ -17,6 +17,7 @@ import XStar from '../../assets/XStar.png'
 import Nenu from '../../assets/nenu.png (1).png'
 
 import ButtonTop from '../../components/ButtonTop';
+import Swap from '../swap_mrd';
 
 
 
@@ -86,7 +87,6 @@ function App() {
 
       </section>
 
-
       <section className='content-info-tam'>
 
         <div className='tokens-distribution-content'>
@@ -108,7 +108,7 @@ function App() {
 
                 <img src={starSmall} alt="Logo" />
                 <button>
-                  <a href="https://ociswap.com/resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer">
+                  <a href="https://astrolescent.com/?to=resource_rdx1t5u04cs3u2yxqkcwku7jdvdvv9cu739jsx0rdwu97682lr0rn92qdh" target="_blank" rel="noopener noreferrer">
                     BUY MRD
                   </a>
 
@@ -175,6 +175,14 @@ function App() {
 
 
         <img className='XStar-1' src={XStar} alt="" />
+
+      </section>
+
+
+      <section className='content-info-tam'>
+        <div className='tokens-distribution-content top-2'>
+          <Swap />
+        </div>
 
       </section>
 
