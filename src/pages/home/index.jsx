@@ -92,7 +92,7 @@ function App() {
         <div className='tokens-distribution-content'>
 
           <div>
-            <h1 className='neonText'>Token <br /> Distribution</h1>
+            <h1 className='neonText'>Token  Teste<br /> Distribution</h1>
 
             <div>
               <p>
