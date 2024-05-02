@@ -59,6 +59,9 @@ function App() {
       .catch(err => {
         console.error('Erro ao buscar dados:', err);
       });
+
+
+      console.log("Teste!");
   }, []);
 
 
