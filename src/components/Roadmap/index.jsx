@@ -38,7 +38,7 @@ const Roadmap = () => {
                     </div>
                 </div>
 
-                <div className="roadmap-item">
+                <div className="roadmap-item complete">
 
                     <div className="roadmap-title">Listing Memerad Dao</div>
                     <div className="roadmap-description">

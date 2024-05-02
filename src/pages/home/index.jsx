@@ -159,7 +159,7 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p>Incentive Reserve: 1% (2 million tokens). </p>
+              <p>Incentive Reserve: 0.5% (2.5 million tokens). </p>
 
             </a>
             <a
