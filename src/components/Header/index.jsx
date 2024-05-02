@@ -22,7 +22,7 @@ const NavBar = () => {
         <div className="navbar">
             <div className="logo">
                 <img src={Logo} alt="Logo" />
-                <span>$MRDs</span>
+                <span>$MRD</span>
             </div>
 
             <div className="hamburger" onClick={() => setIsOpen(true)}>
